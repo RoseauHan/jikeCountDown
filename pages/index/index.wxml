@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="userinfo">
+        <image src='/img/okjike.png' class="userinfo-avatar" mode="cover"></image>
+    </view>
+    <view class="usermotto">
+        <text class="user-motto">即刻APP停服</text>
+    </view>
+    <text class="user-motto">第 {{dateDiff}} 天</text>
+    <button class="intro" open-type="getUserInfo" bindgetuserinfo="getUserInfo" wx:if="{{!nickName}}">点我获取分享图头像昵称</button>
+    <button class="intro" bindtap="createShareImage" wx:else>点我生成分享图</button>
+    <button class="introShare" open-type='share'>分享给即友</button>
+    <share-box isCanDraw="{{isCanDraw}}" bind:initData="createShareImage" />
+</view>
