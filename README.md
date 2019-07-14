@@ -1,2 +1,9 @@
 # jikeCountDown
-a simple wechat mini program, counting  jike APP's offline days.
+一个简单的微信小程序，用来查看即刻停服了多久。
+我给它取了一个不错的中文名字：倒即时。
+
+## 为什么要做？
+原因很简单，我是即刻app的资深用户，很喜欢它。
+
+## 界面展示
+
