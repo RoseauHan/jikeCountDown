@@ -8,15 +8,19 @@
 希望即刻早日回归！
 
 ## 界面展示
-![](https://tva1.sinaimg.cn/large/0060lm7Tly1g500fjo86dj30u01o044b.jpg)
+<img src="https://tva1.sinaimg.cn/large/0060lm7Tly1g500fjo86dj30u01o044b.jpg" width="300" height="600" align=center />
 
-![](https://tva1.sinaimg.cn/large/0060lm7Tly1g500fkl0nrj30u01o0grl.jpg)
+<img src="https://tva1.sinaimg.cn/large/0060lm7Tly1g500fkl0nrj30u01o0grl.jpg" width="300" height="600" align=center />
 
-![](https://tva1.sinaimg.cn/large/0060lm7Tly1g500fk8ih1j30u01heqd2.jpg)
+<img src="https://tva1.sinaimg.cn/large/0060lm7Tly1g500fk8ih1j30u01heqd2.jpg" width="300" height="600" align=center />
 
 ## 在线体验
 微信扫一扫即刻体验
+
+
 ![](https://tva1.sinaimg.cn/large/0060lm7Tly1g500fjwxbuj309k09k762.jpg)
+
+
 （目前暂时未上线）
 
 ## 致谢
@@ -26,5 +30,5 @@
 - 开源协议：GPL3
 - 项目中用到的所有即刻素材均为学习交流使用，如有侵权，必定即刻删除。
 - 下面是我的即刻账号，希望早日在即刻相见！
-![](https://tva1.sinaimg.cn/large/0060lm7Tly1g500oxqrfhj30u01fbaol.jpg
-)
+
+<img src="https://tva1.sinaimg.cn/large/0060lm7Tly1g500oxqrfhj30u01fbaol.jpg" width="300" height="513" align=center />
