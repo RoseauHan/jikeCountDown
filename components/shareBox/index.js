@@ -39,7 +39,7 @@ Component({
                 imgDraw: {
                     width: '750rpx',
                     height: '1334rpx',
-                    background: 'https://tva1.sinaimg.cn/large/0060lm7Tly1g4zzqcmbqlj30u01hvjvf.jpg',
+                    background: 'https://tva1.sinaimg.cn/large/0060lm7Tly1g5140n73bnj30u01hvjwc.jpg',
                     views: [
                         {
                             type: 'image',
@@ -56,37 +56,38 @@ Component({
                         },
                         {
                             type: 'text',
-                            text: wx.getStorageSync('nickName') || '即刻App',
+                            text: wx.getStorageSync('nickName') || '即友',
                             css: {
                                 top: '149rpx',
                                 fontSize: '28rpx',
-                                left: '119rpx',
+                                left: '110rpx',
                                 align: 'center',
                                 color: '#000'
                             }
                         },
                         {
                           type: 'text',
-                          text: wx.getStorageSync('date') || '07/15',
+                          text: wx.getStorageSync('date'),
                           css: {
-                            top: '676rpx',
-                            left: '105rpx',
+                            top: '646rpx',
+                            left: '90rpx',
                             align: 'center',
                             fontSize: '28rpx',
-                              color: '#bfbfbf'
+                              color: '#bfbfbf',
+                              'font-family': 'jike'
                           }
                         },
                         {
                           type: 'text',
-                          text: wx.getStorageSync('dateDiff'),
+                          text: wx.getStorageSync('dateDiff') || 'J',
                           css: {
-                            top: '834rpx',
-                            left: '385rpx',
+                            top: '860rpx',
+                            left: '360rpx',
                             maxLines: 1,
                             align: 'center',
                             fontWeight: 'bold',
-                            fontSize: '54rpx',
-                            color: '#000'
+                            fontSize: '86rpx',
+                            color: '#ffe411'
                           }
                         }
                     ]
@@ -96,7 +97,7 @@ Component({
         onImgErr(e) {
             wx.hideLoading()
             wx.showToast({
-                title: '生成分享图失败，请刷新页面重试'
+                title: '生成海报失败，请刷新页面重试'
             })
         },
         onImgOK(e) {

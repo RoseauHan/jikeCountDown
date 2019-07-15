@@ -1,3 +1,4 @@
+@import './../../style/Latin.wxss';
 .share-wrap {
   width: 100%;
 }

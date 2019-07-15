@@ -1,54 +1,76 @@
 /**index.wxss**/
-page{
+@import './../../style/Latin.wxss';
+
+page {
     background-color: #ffe411;
 }
 
 .userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
 }
 
 .userinfo-avatar {
-  width: 740rpx;
-  height: 370rpx;
-  margin: 20rpx;
-  /* border-radius: 50%; */
+    width: 740rpx;
+    height: 370rpx;
+    margin: 20rpx;
+    /* border-radius: 50%; */
+}
+
+.userinfo-date {
+    width: 720rpx;
+    height: 218rpx;
+    margin: 20rpx;
 }
 
 .userinfo-nickname {
-  color: #aaa;
+    color: #aaa;
 }
 
-.usermotto {
-  margin-top: 90rpx;
-}
-
-.user-motto{
-    font-size: 60rpx;
+.user-motto {
+    font-size: 98rpx;
     font-weight: bold;
+    font-family: 'jike';
+    /* width: 100px;
+    height: 24px; */
+    position: absolute;
+    left: 0;
+    top: 125rpx;
+    right: 0;
+    /* bottom: 5rpx; */
+    text-align: center;
+    margin: auto;
+    color: #fff;
 }
 
 .intro {
-  width: 586rpx;
-  height: 88rpx;
-  background: #fff;
-  color: #000;
-  font-weight: bold;
-  border-radius: 39rpx;
-  font-size: 32rpx;
-  text-align: center;
-  margin: 300rpx 0rpx 0rpx 0rpx;
+    width: 586rpx;
+    height: 88rpx;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 39rpx;
+    font-size: 32rpx;
+    text-align: center;
+    margin: 90rpx 0rpx 0rpx 0rpx;
 }
 
 .introShare {
-  width: 586rpx;
-  height: 88rpx;
-  background: #fff;
-  color: #000;
-  font-weight: bold;
-  border-radius: 39rpx;
-  font-size: 32rpx;
-  text-align: center;
-  margin: 30rpx 0rpx 0rpx 0rpx;
+    width: 586rpx;
+    height: 88rpx;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border-radius: 39rpx;
+    font-size: 32rpx;
+    text-align: center;
+    margin: 30rpx 0rpx 0rpx 0rpx;
+}
+
+.guoguo{
+    width: 740rpx;
+    height: 246rpx;
+    position: absolute;
+    bottom: 0rpx;
 }

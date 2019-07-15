@@ -8,8 +8,24 @@ Page({
         nickName: '',
         avatarUrl: '',
         isCanDraw: false,
+
+        click: 0,
+        clickKind: {
+            0: 'nb',
+            1: '绝了',
+            2: '学习了'
         },
-        
+        clickTotalTime: 0,
+
+        clickgg: 0,
+        clickggkind: {
+            0: '勿扰本大王！',
+            1: '喵喵喵',
+            2: '喜欢本大王？'
+        },
+        clickggTime: 0
+    },
+
     getUserInfo(e) {
         this.setData({
             nickName: e.detail.userInfo.nickName,
@@ -25,7 +41,57 @@ Page({
         })
     },
 
-    onShareAppMessage: function () {
+    motto: function() {
+        console.log(this.data.clickTotalTime)
+        if (this.data.clickTotalTime > 20) {
+            wx.showModal({
+                title: 'Thanks',
+                content: 'thanks for being addicted!',
+                showCancel: false
+            })
+            this.setData({
+                clickTotalTime: 0
+            })
+        } else {
+            var title = this.data.clickKind[this.data.click]
+            wx.showToast({
+                title: title,
+                duration: 600,
+                image: '/img/jike.png'
+            })
+            this.setData({
+                click: (this.data.click + 1) % 3,
+                clickTotalTime: this.data.clickTotalTime + 1
+            })
+        }
+    },
+
+    clickguoguo: function() {
+        console.log(this.data.clickggTime)
+        if (this.data.clickggTime > 10) {
+            wx.showModal({
+                title: '喜欢我？',
+                content: '分享给更多即友吧',
+                showCancel: false
+            })
+            this.setData({
+                clickggTime: 0
+            })
+        } else {
+            var title = this.data.clickggkind[this.data.clickgg]
+            wx.showToast({
+                title: title,
+                duration: 600,
+                image: '/img/cat.png'
+            })
+            this.setData({
+                clickgg: (this.data.clickgg + 1) % 3,
+                clickggTime: this.data.clickggTime + 1
+            })
+        }
+    },
+
+    onShareAppMessage: function() {
         return {
             title: '今天即刻恢复更新了吗？',
             desc: '',
