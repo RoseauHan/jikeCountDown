@@ -19,7 +19,6 @@
 
 <img src="https://tva1.sinaimg.cn/large/0060lm7Tly1g500fjwxbuj309k09k762.jpg" width="150" height="150" align=center />
 
-（目前暂时未上线）
 
 ## 致谢
 感谢开源项目[painter](https://github.com/Kujiale-Mobile/Painter)，使得这个小程序从想法到诞生只用了不到半天时间。
