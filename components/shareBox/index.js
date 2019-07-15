@@ -124,7 +124,7 @@ Component({
                 success: (res) => {
                     wx.showToast({
                         title: '保存成功',
-                        icon: 'none'
+                        icon: 'success'
                     })
                     setTimeout(() => {
                         this.setData({

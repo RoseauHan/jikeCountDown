@@ -95,7 +95,7 @@ Page({
         return {
             title: '今天即刻恢复更新了吗？',
             desc: '',
-            imageUrl: '/img/share.jpg',
+            imageUrl: '/img/share.png',
             path: '/pages/index/index'
         }
     },
