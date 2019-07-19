@@ -8,7 +8,7 @@
 希望即刻早日回归！
 
 ## 界面展示
-<img src="https://i.loli.net/2019/07/19/5d30af0025bf716109.png" width="380" height="600" align=center />
+<img src="https://i.loli.net/2019/07/19/5d30af0025bf716109.png" width="380" height="500" align=center />
 
 <img src="https://i.loli.net/2019/07/19/5d30afd97dba723854.png" width="300" height="533" align=center />
 
