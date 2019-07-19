@@ -13,4 +13,6 @@
     <button class="introShare" open-type='share'>分享给即友Ⓙ</button>
     <share-box isCanDraw="{{isCanDraw}}" bind:initData="createShareImage" />
     <image src='/img/gg.png' class="guoguo" mode="cover" bindtap='clickguoguo'></image>
+
+    <text class='declare'> *非官方* </text>
 </view>

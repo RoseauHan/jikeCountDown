@@ -39,7 +39,7 @@ Component({
                 imgDraw: {
                     width: '750rpx',
                     height: '1334rpx',
-                    background: 'https://tva1.sinaimg.cn/large/0060lm7Tly1g5140n73bnj30u01hvjwc.jpg',
+                    background: 'https://tva1.sinaimg.cn/large/0060lm7Tly1g55jha1xn5j30u01hvk2p.jpg',
                     views: [
                         {
                             type: 'image',
