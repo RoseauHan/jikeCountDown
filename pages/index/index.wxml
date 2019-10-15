@@ -4,7 +4,7 @@
         <image src='/img/okjike.png' class="userinfo-avatar" mode="cover"></image>
     </view>
     <view class="userinfo" bindtap='motto'>
-        <image src='/img/date.png' class="userinfo-date" mode="cover"></image>
+        <image src='/img/date1.png' class="userinfo-date" mode="cover"></image>
             <view class="user-motto">{{dateDiff}}</view>
     </view>
 

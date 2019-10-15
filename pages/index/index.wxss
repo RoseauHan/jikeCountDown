@@ -36,7 +36,7 @@ page {
     height: 24px; */
     position: absolute;
     left: 0;
-    top: 125rpx;
+    top: 118rpx;
     right: 0;
     /* bottom: 5rpx; */
     text-align: center;
@@ -69,8 +69,8 @@ page {
 }
 
 .guoguo{
-    width: 740rpx;
-    height: 246rpx;
+    width: 831rpx;
+    height: 240rpx;
     position: absolute;
     bottom: 0rpx;
 }

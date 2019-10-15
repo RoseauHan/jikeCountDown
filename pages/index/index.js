@@ -70,8 +70,8 @@ Page({
         console.log(this.data.clickggTime)
         if (this.data.clickggTime > 10) {
             wx.showModal({
-                title: '喜欢我？',
-                content: '分享给更多即友吧',
+                title: '喜欢我吗',
+                content: 'Jellow一下？',
                 showCancel: false
             })
             this.setData({
