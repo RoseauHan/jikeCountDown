@@ -1,5 +1,5 @@
 # jikeCountDown
-一个简单的微信小程序，用来查看即刻停服了多久。
+一个简单的微信小程序，一起期待即刻早日回归。
 我给它取了一个不错的中文名字：倒即时。
 
 ## 为什么要做？
@@ -8,7 +8,7 @@
 希望即刻早日回归！
 
 ## 界面展示
-<img src="https://i.loli.net/2019/07/19/5d30af0025bf716109.png" width="380" height="500" align=center />
+<img src="https://i.loli.net/2019/07/19/5d30af0025bf716109.png" width="380" height="553" align=center />
 
 <img src="https://i.loli.net/2019/07/19/5d30afd97dba723854.png" width="300" height="533" align=center />
 
